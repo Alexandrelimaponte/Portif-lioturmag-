@@ -1,0 +1,31 @@
+p {
+    color:aliceblue;
+    font: 1rem verdana;
+}
+legend {
+         color:blueviolet;
+         font: 1.2rem verdana;
+         font-weight: bold;
+}
+fieldset {
+     width: 800px;
+     border: 1px solid color(srgb white);
+     margin: 20px;
+
+}
+input.btn  {
+    background-color: rgb(255, 255, 255);
+    color:rgb(123, 0, 139);
+    padding: 7px;
+    margin: 5px;
+    font:1.3vw verdana;
+    border:none
+           
+}
+input.btn:hover{
+                  background-color: rgb(70, 0, 116);
+                  color: black;
+}
+
+
+

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style_portifolio.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Stylecontato.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contatos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="menu">
+        <img class="logo" src="imagens/images.png" style="width: 150px; height: 150px;">
+        <h1>Portfólio e Currículo <h1>
+
+
+                <h2>Alexandre lima ponte</h2>
+                <nav>
+                    <a class="links1" href="index.html">Currículo </a>
+
+                    <a class="links1" href="portifólio.html">Portfólio</a>
+
+                    <a class="links1" href="contatos.html">Contatos </a>
+                </nav>
+    </header>
+
+    <div class="info01">
+        <h3>INFORMAÇÕES PESSOAIS:</h3>
+        <ul>
+            <li>
+                rua mendanha, São paulo, São paulo, 11989994966, comercial.alexandrelima@gmail.com,
+                brasileiro
+            </li>
+        </ul>
+    </div>
+    <main>
+    </main>
+
+    <div>
+        <form action="mailton:comercial.alexandrelima@gmail.com">
+            <fieldset id="usuario">
+                <legend>Identificação do usuario</legend>
+
+                <p>
+
+                    <img src="imagens/retomar.png" alt="" width="10%">
+                    <label>Nome:</label>
+                    <input type="Nome" id="cnome" size="50" maxlength="50" placeholder="digite aqui seu nome completo"
+                        autofocus autocomplete="on" required>
+                </p>
+                <p>
+                    <label for=""> senha: </label><input type="password" nome="senha" size="16" maxlength="16"
+                        placeholder="Digite uma senha">
+                </p>
+                <p>
+                    <label for="">e-mail:</label><input type="email" nome="email" id="cemail" size="30" maxlength="50"
+                        placeholder="Digite um email valido" required>
+                </p>
+
+                <fieldset id="sexo">
+                    <legend>Sexo</legend>
+                    <p>
+                        <input type="Radio" Name="Sexo" id="cmasc" checked> <label for="">Masculino</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" name="Sexo" id="cfem"> <label for="">Feminino</label>
+
+                    </p>
+
+                    <p>
+                        <input type="Radio" Name="Sexo" id="coutro"> <label for="">Outro</label>
+                    </p>
+                    <fieldset>
+                        <p>
+                            <label for="">Data de nascimento:</label>
+                            <input type="date" name="nasc" id="cmasc">
+
+                        </p>
+                    </fieldset>
+
+
+                    <fieldset>
+                        <legend>Endereço Do usuario</legend>
+                        <p>
+                            <label for="">Logradoura:</label>
+                            <input type="text" name="Rua" id="crua" size="50" maxlength="50"
+                                placeholder="rua,av, trav...">
+
+                        </p>
+                        <p>
+                            <label for="">Número</label>
+                            <input type="number" name="rua" id="cnum" min="0" max="9999" step="1" value="1">
+                        </p>
+
+                        <p>
+                            <label for="">Estado:</label>
+                            <select nome="estado" id="cestado">
+                                <option value="ac">Acre</option>
+                                <option value="al">Alagoas</option>
+                                <option value="ap">Amapá</option>
+                                <option value="am">Amazonas</option>
+                                <option value="ba">Bahia</option>
+                                <option value="ce">Ceará</option>
+                                <option value="df">Distrito Federal</option>
+                                <option value="es">Espírito Santo</option>
+                                <option value="go">Goiás</option>
+                                <option value="ma">Maranhão</option>
+                                <option value="mt">Mato Grosso</option>
+                                <option value="ms">Mato Grosso do Sul</option>
+                                <option value="mg">Minas Gerais</option>
+                                <option value="pa">Pará</option>
+                                <option value="pb">Paraíba</option>
+                                <option value="pr">Paraná</option>
+                                <option value="pe">Pernambuco</option>
+                                <option value="pi">Piauí</option>
+                                <option value="rj">Rio de Janeiro</option>
+                                <option value="rn">Rio Grande do Norte</option>
+                                <option value="rs">Rio Grande do Sul</option>
+                                <option value="ro">Rondônia</option>
+                                <option value="rr">Roraima</option>
+                                <option value="sc">Santa Catarina</option>
+                                <option value="sp">São Paulo</option>
+                                <option value="se">Sergipe</option>
+                                <option value="to">Tocantins</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="">Cidade:</label>
+                            <input type="text" name="id" id="cidade"size="20" maxlength="20" placeholder="Digite a cidade que mora">
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Mensagem do usuario</legend>
+                        <p>
+                            <label for="">Mensagem:</label>
+                        </p>
+                        <p>
+                            <textarea name="msg"id="cmsg"cols="50" rows="10"placeholder="digite aqui sua mensagem"maxleght="1000"></textarea>
+                        </p>
+                        <input type="button" value="enviar" class="btn" name="enviar">
+                        <input type="reset" value="limpar" class="btn" name="limpar">      
+
+                    
+                    </fieldset>
+
+
+        </form>
+    </div>
+
+
+
+    <footer>
+        <p>Portfólio - 2025 designer Alexandre lima ponte
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>
